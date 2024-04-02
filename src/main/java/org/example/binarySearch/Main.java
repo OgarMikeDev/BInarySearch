@@ -2,7 +2,7 @@ package org.example.binarySearch;
 
 public class Main {
     public static void main(String[] args) throws java.lang.Exception {
-        // your code goes here
+        // Your code goes here
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int start = 0;
         int end = numbers.length - 1;
