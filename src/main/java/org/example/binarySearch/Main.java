@@ -1,5 +1,7 @@
 package org.example.binarySearch;
 
+import java.util.Scanner;
+
 public class Main {
 public static void main(String[] args) throws java.lang.Exception {
         // Your code goes here
@@ -8,7 +10,8 @@ public static void main(String[] args) throws java.lang.Exception {
         int start = 0;
         int end = numbers.length - 1;
         int middle = (start + end) / 2;
-        int query = 6;
+        System.out.println("Введите число в пределах от 1 до 10: ");
+        int query = new Scanner(System.in).nextInt();
 
         while (true) {
             middle = (start + end) / 2;
